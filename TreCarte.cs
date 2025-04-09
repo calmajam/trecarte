@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TreCarte
 {
-    internal class Program
+    internal class TreCarte
     {
         static void Main(string[] args)
         {
@@ -55,7 +55,6 @@ namespace TreCarte
             } else if (a == 1) {
                 b = r.Next(2, 4);
                 if (b == 3) c = 2; else c = 3;
-
             } else if (a == 3) {
                 b = r.Next(1, 3);
                 if (b == 2) c = 1; else c = 2;
